@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
-            <a href="#">About</a>
-            <a href="#">Store</a>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-            <a href="#"><img src="" alt="Googe Apps"> </a>
-            <button>Sign in</button>
+            <div class="header-left">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="header-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><img src="" alt="Googe Apps"> </a>
+                <button class="sign-in-button">Sign in</button>
+            </div>
         </header>
         <main>
             <a href="#"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The Google Logo"></a>
-            <form>
+            <form action="#">
+                <label for="search">
+                    <input id="search" value="" name="search">
+                </label>
+                <button type="submit">Google Search</button>
+                <button type="lucky">I'm feeling lucky</button>
 
             </form>
             <div>

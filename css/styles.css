@@ -1,0 +1,36 @@
+html{
+    font-family: sans-serif;
+}
+
+header{
+    color: black;
+}
+
+header a:link{
+    color:black;
+    text-decoration: none;
+}
+
+main{
+
+}
+
+
+ .header-left{
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     
+ }
+
+ .header-right{
+     display:flex;
+     flex-direction: row;
+     justify-content: end;
+
+ }
+
+ .sign-in-button{
+     background-color: blue;
+     color: white;
+ }
