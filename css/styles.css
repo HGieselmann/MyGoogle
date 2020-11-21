@@ -3,7 +3,13 @@ html{
 }
 
 header{
+    display: flex;
+    align-items: center;
     color: black;
+    margin: 1em;
+    box-sizing: border-box;
+    padding: 6px;
+    height: 60px;
 }
 
 header a:link{
@@ -12,21 +18,40 @@ header a:link{
 }
 
 main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-nav{
+    display: flex;
 
 }
 
+.header-item{
+    padding: 1em;
+}
 
- .header-left{
-     display: flex;
-     flex-direction: row;
-     justify-content: start;
+.logo{
+    flex-shrink: 1;
+    min-height: 92px;
+    max-height: 290px;
+    
+}
+.search-bar{
+    width: auto;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
      
- }
+}
 
  .header-right{
-     display:flex;
-     flex-direction: row;
-     justify-content: end;
+    display:inline-block;
+    justify-content: flex-end;
 
  }
 
