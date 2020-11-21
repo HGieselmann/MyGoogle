@@ -1,5 +1,9 @@
 html{
     font-family: sans-serif;
+    margin: 0px;
+}
+body{
+    margin: 0;
 }
 
 header{
@@ -29,11 +33,14 @@ main{
     flex-direction: column;
     align-items: center;
 }
+
 footer{
     position: fixed;
     bottom:0;
     width: 100%;
-    
+    margin:0;
+    padding: 12px;
+    background-color: lightgray;
 }
 
 .footer-nav{
@@ -49,9 +56,10 @@ footer{
 }
 
 .logo{
-    flex-shrink: 1;
+    flex-shrink: 0;
     min-height: 92px;
     max-height: 290px;
+    width: auto;
     
 }
 .search-bar{
@@ -59,16 +67,11 @@ footer{
 }
 
 .header-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-     
+    /*display: inline-block;     */
 }
 
 .header-right{
-    display:inline-block;
-    justify-content: flex-end;
-
+    margin-left: auto;
 }
 
 .sign-in-button{
