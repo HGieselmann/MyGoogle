@@ -29,9 +29,12 @@ header a:visited{
 }
 
 main{
+    width: 50%;
+    margin-left: 25%;
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -56,18 +59,43 @@ footer{
 }
 
 .logo{
-    flex-shrink: 0;
-    min-height: 92px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
     max-height: 290px;
-    width: auto;
-    
+    min-height: 92px;
+    height:calc(100% -560px);
 }
-.search-bar{
-    width: auto;
+.logo-offset{
+    margin-top: auto;
+}
+#logo-img{
+    height: 92px;
+    width:auto;
+}
+.search-area{
+    width: 100%;
 }
 
-.header-left{
-    /*display: inline-block;     */
+.search-bar-section{
+    width: auto;
+}
+#search-bar{
+    width:100%;
+    border-radius: 50px;
+}
+
+.search-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-button{
+    border:0;
+    box-shadow: transparent;
+    border-radius: 4px;
+    cursor:pointer;
+    
 }
 
 .header-right{

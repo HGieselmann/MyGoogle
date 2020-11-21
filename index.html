@@ -16,21 +16,24 @@
                 <button class="sign-in-button">Sign in</button>
             </div>
         </header>
+
         <main>
             <div class="logo">
-                <a href="#"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The Google Logo"></a>
+                <div class="logo-offset">
+                    <a href="#"><img id="logo-img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The Google Logo"></a>
+                </div>
             </div>
 
             <div class="search-area">
                 <form action="#">
-                    <div class="search-bar">
+                    <div class="search-bar-section">
                         <label for="search">
-                            <input id="search" value="" name="search">
+                            <input id="search-bar" id="search" value="" name="search">
                         </label>
                     </div>
                     <div class="search-buttons">
-                        <button type="submit">Google Search</button>
-                        <button type="lucky">I'm feeling lucky</button>
+                        <button class="search-button" type="submit">Google Search</button>
+                        <button class="search-button" type="lucky">I'm feeling lucky</button>
                     </div>
 
                 </form>
