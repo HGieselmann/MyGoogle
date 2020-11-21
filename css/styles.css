@@ -10,7 +10,6 @@ header{
     display: flex;
     align-items: center;
     color: #222;
-    margin: 1em;
     box-sizing: border-box;
     padding: 6px;
     height: 60px;
@@ -73,6 +72,13 @@ main{
     border: 1px solid #dfe1e5;
     border-radius: 24px;
 }
+
+.search-icon{
+    
+    padding: 0 10px;
+    fill: lightgray;
+}
+
 #search-bar{
     height: 1em;
     width:100%;
